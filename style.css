@@ -52,3 +52,70 @@ a:visited {
   color: #72e32c;
   text-decoration: none;
 }
+
+div.cursor {
+  display: inline-block;
+  background: #111;
+  margin-left: 1px;
+  width: 2px;
+  -webkit-animation: blink 0.6s linear 0s infinite;
+  -moz-animation: blink 0.6s linear 0s infinite;
+  -ms-animation: blink 0.6s linear 0s infinite;
+  -o-animation: blink 0.6s linear 0s infinite;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    background: #fff;
+  }
+
+  50% {
+    background: #000;
+  }
+
+  100% {
+    background: #fff;
+  }
+}
+
+@-moz-keyframes blink {
+  0% {
+    background: #fff;
+  }
+
+  50% {
+    background: #000;
+  }
+
+  100% {
+    background: #fff;
+  }
+}
+
+@-ms-keyframes blink {
+  0% {
+    background: #fff;
+  }
+
+  50% {
+    background: #000;
+  }
+
+  100% {
+    background: #fff;
+  }
+}
+
+@-o-keyframes blink {
+  0% {
+    background: #fff;
+  }
+
+  50% {
+    background: #000;
+  }
+
+  100% {
+    background: #fff;
+  }
+}
