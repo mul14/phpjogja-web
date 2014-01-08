@@ -1,0 +1,33 @@
+html, body {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #2b3438;
+    color: #f3f1ea;
+    font-size: 1.8rem;
+    font-family: Consolas, Monaco, "Ubuntu Mono", "Lucida Console", Monospace;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 60px auto 0;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 280px;
+}
+
+pre {
+    font-size: 1.4rem;
+    font-family: Consolas, Monaco, "Ubuntu Mono", "Lucida Console", Monospace;
+}
+
+a, a:visited {
+    color: #72e32c;
+    text-decoration: none;
+}
