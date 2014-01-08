@@ -16,17 +16,25 @@
 <div class="wrapper">
 
     <div class="logo">
-        <img src="images/logo-white.svg" alt="PHP Indonesia Logo"/>
+        <a href="//phpjogja.com/">
+            <img src="images/logo-white.svg" alt="PHP Indonesia Logo" />
+        </a>
     </div>
 
-<pre>
-Hello World!
+<pre class="code"><span class="command">&lt;&quest;php</span>
 
-- Website: <a href="http://phpindonesia.net">http://phpindonesia.net</a>
+<span class="command">echo</span> <span class="string">'Hello World!'</span>;
 
-- Facebook Group: <a href="https://www.facebook.com/groups/35688476100">https://www.facebook.com/groups/35688476100</a>
+<span class="comment">/*
 
-</pre>
+- Website         <a href="http://phpindonesia.net">http://phpindonesia.net</a>
+
+- Facebook Group  <a href="https://www.facebook.com/groups/35688476100">https://www.facebook.com/groups/35688476100</a>
+
+*/
+</span></pre>
+
 </div>
+
 </body>
 </html>
